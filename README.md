@@ -1,4 +1,4 @@
-# DeepSeek CS Chatbot
+# CS Chatbot
 
 A simple command-line chatbot acting as a Computer Science tutor. This bot uses the DeepSeek model via the OpenRouter API to explain topics like OS, DBMS, Networking, Algorithms, AI, Data Structures, etc.
 
