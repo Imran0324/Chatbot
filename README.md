@@ -30,6 +30,21 @@ python Deepseek.py
 
 Type your questions or topics you want to learn about, and the bot will reply with explanations. Type `exit` or `quit` to end the chat.
 
+## Changing the Model
+
+By default, this chatbot uses a DeepSeek model. However, since it connects via the OpenRouter API, you can easily switch to **any other model** supported by OpenRouter (such as OpenAI's GPT-4o, Anthropic's Claude, Meta's Llama 3, etc.).
+
+To change the model:
+1. Open the python script (e.g., `Deepseek.py` or `chatbot.py`).
+2. Locate the `MODEL` variable near the top of the file:
+   ```python
+   MODEL = "deepseek/deepseek-r1-0528:free"
+   ```
+3. Change its value to the ID of any model you prefer from the [OpenRouter Models page](https://openrouter.ai/models). For example:
+   ```python
+   MODEL = "openai/gpt-4o"
+   ```
+
 ## Example
 
 ```
